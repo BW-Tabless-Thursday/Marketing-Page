@@ -1,0 +1,10 @@
+// Mixins in here
+
+// Animations
+.scaleup-color(@scale-factor, @color) {
+    &:hover {
+        transform: scale(@scale-factor);
+        color: @color;
+        transition: 0.3s ease;
+    }
+} 
