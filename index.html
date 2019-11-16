@@ -17,6 +17,11 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Font family -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+
     <!-- The project style sheet -->
     <link rel="stylesheet" href="css/index.css">
 
@@ -25,20 +30,15 @@
   <body>
     <!-- Override bootstrap shadow disabling on hover -->
     <script>
-      $(document).ready(function() {
-      // executes when HTML-Document is loaded and DOM is ready
-      console.log("document is ready");
-        
-
+      const clsName = 'shadow-lg'
+      $(document).ready(function() { 
         $( ".card" ).hover(
-        function() {
-          $(this).addClass('shadow').css('cursor', 'pointer'); 
-        }, function() {
-          $(this).removeClass('shadow');
-        }
-      );
-        
-      // document ready  
+          function() {
+            $(this).addClass(clsName).css('cursor', 'pointer'); 
+          }, function() {
+            $(this).removeClass(clsName);
+          }
+        );
       });
     </script>  
     
@@ -46,30 +46,30 @@
     <!-- Logo and links on left, login/signup on right  -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Tabless Thursday</a>
+        <a class="navbar-brand font-weight-bold" href="#">Tabless Thursday</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link font-weight-bold" href="/index.html">Home</a>
             </li>
             
-            <li class="nav-item">
+            <li class="nav-item font-weight-bold">
               <a class="nav-link" href="#">About</a>
             </li>
             
-            <li class="nav-item">
+            <li class="nav-item font-weight-bold">
               <a class="nav-link" href="#">Features</a>
             </li>
           </ul>        
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item font-weight-bold">
               <a class="nav-link" href="#">Login</a>
             </li>
             
-            <li class="nav-item">
+            <li class="nav- font-weight-bold">
               <a class="nav-link" href="#">Signup</a>
             </li>
           </ul>
@@ -100,7 +100,7 @@
   
     
   <!-- Body: reviews section (3 column for desktop) -->
-    <div class="card-deck container-fluid">
+    <div class="card-deck container-fluid ml-md-0 px-md-5">
       <div class="card shadow-sm rounded">
         <div class="card-body">
           <h5 class="card-title">PC Magazine</h5>

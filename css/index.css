@@ -144,8 +144,33 @@ html {
     font-size: 1.3rem;
   }
 }
-.nav-link {
+body {
+  background-color: #A8D0E6;
+  font-family: 'Roboto Slab', sans-serif;
+}
+.navbar .navbar-nav .nav-link {
   font-size: 1.1em;
+  color: #24305E;
+  border-top: 2px solid #f8f9fa;
+  border-bottom: 2px solid #f8f9fa;
+  transition: 0.3s ease;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #F76c6c;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+.navbar .navbar-brand {
+  font-size: 1.3em;
+  color: #F76c6c;
+  border-top: 2px solid #f8f9fa;
+  border-bottom: 2px solid #f8f9fa;
+  transition: 0.3s ease;
+}
+.navbar .navbar-brand:hover {
+  color: #24305E;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
 }
 .jumbotron {
   background-image: url(../img/tabs-smfaded.png);

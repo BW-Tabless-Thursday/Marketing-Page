@@ -1,4 +1,35 @@
 // Navigation Styles here
-.nav-link {
-    font-size: 1.1em;
+.navbar {
+    // background-color: @ltblue;
+    .navbar-nav {
+        .nav-link {
+            font-size: 1.1em;
+            color: @dkblue;
+            border-top: 2px solid @bsbglight;
+            border-bottom: 2px solid @bsbglight;
+            transition: 0.3s ease;
+
+            &:hover {
+                color: @mdred;
+                border-top: 2px solid gray;
+                border-bottom: 2px solid gray;
+            }
+        }
+    }
+
+
+    .navbar-brand {
+        font-size: 1.3em;
+        color: @mdred;
+        border-top: 2px solid @bsbglight;
+        border-bottom: 2px solid @bsbglight;
+        transition: 0.3s ease;
+
+        &:hover {
+            color: @dkblue;
+            border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
+        }
+    }
 }
+
