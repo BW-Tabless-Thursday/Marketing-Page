@@ -126,18 +126,39 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* //Jumbotron Code VVV
+html {
+  font-size: 1rem;
+}
+@media (min-width: 575.98px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 767.98px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 991.98px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
 .jumbotron {
-   background-image: url(../img/bg-placeholder.jpg);
-   background-size: cover;
-   height: 100%;
+  background-image: url(../img/tabs-many.png);
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+}
+.jumbotron h1 {
+  font-weight: bold;
+  color: #303030;
+}
+@media (max-width: 575.98px) {
+  .jumbotron h1 {
+    font-size: 3em;
+  }
 }
 .add-spaces {
-   height: 35em;
+  height: 35em;
 }
-
-<!--
-function displayMsg() {
- alert("Hello World!")
-}
-*/
