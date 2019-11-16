@@ -5,14 +5,14 @@
         .nav-link {
             font-size: 1.1em;
             color: @dkblue;
-            border-top: 2px solid @bsbglight;
-            border-bottom: 2px solid @bsbglight;
+            border-top: 2px solid @bsbglight; // blend into bg
+            border-bottom: 2px solid @bsbglight; // blend into bg
             transition: 0.3s ease;
 
             &:hover {
                 color: @mdred;
-                border-top: 2px solid gray;
-                border-bottom: 2px solid gray;
+                border-top: 2px solid @dkblue;
+                border-bottom: 2px solid @dkblue;
             }
         }
     }
@@ -21,14 +21,14 @@
     .navbar-brand {
         font-size: 1.3em;
         color: @mdred;
-        border-top: 2px solid @bsbglight;
-        border-bottom: 2px solid @bsbglight;
+        border-top: 2px solid @bsbglight; // blend into bg
+        border-bottom: 2px solid @bsbglight; // blend into bg
         transition: 0.3s ease;
 
         &:hover {
             color: @dkblue;
-            border-top: 2px solid gray;
-            border-bottom: 2px solid gray;
+            border-top: 2px solid @mdred;
+            border-bottom: 2px solid @mdred;
         }
     }
 }

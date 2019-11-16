@@ -157,8 +157,8 @@ body {
 }
 .navbar .navbar-nav .nav-link:hover {
   color: #F76c6c;
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
+  border-top: 2px solid #24305E;
+  border-bottom: 2px solid #24305E;
 }
 .navbar .navbar-brand {
   font-size: 1.3em;
@@ -169,8 +169,8 @@ body {
 }
 .navbar .navbar-brand:hover {
   color: #24305E;
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
+  border-top: 2px solid #F76c6c;
+  border-bottom: 2px solid #F76c6c;
 }
 .jumbotron {
   background-image: url(../img/tabs-smfaded.png);
