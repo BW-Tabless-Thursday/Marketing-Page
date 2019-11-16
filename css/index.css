@@ -144,8 +144,11 @@ html {
     font-size: 1.3rem;
   }
 }
+.nav-link {
+  font-size: 1.1em;
+}
 .jumbotron {
-  background-image: url(../img/tabs-many.png);
+  background-image: url(../img/tabs-smfaded.png);
   background-size: cover;
   height: 100%;
   max-width: 100%;
@@ -161,4 +164,8 @@ html {
 }
 .add-spaces {
   height: 35em;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
 }
