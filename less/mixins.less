@@ -1,10 +1,14 @@
 // Mixins in here
 
-// Animations
-.scaleup-color(@scale-factor, @color) {
+// Swap the text color and the border color
+.swapColor(@text-color, @border-color, @border-style, @border-width, @bg-color) {
+    color: @text-color;
+    border-top: ~"@{border-width} @{border-style} @{bg-color}";
+    border-bottom: ~"@{border-width} @{border-style} @{bg-color}";
+    
     &:hover {
-        transform: scale(@scale-factor);
-        color: @color;
-        transition: 0.3s ease;
+        color: @border-color;
+        border-top: ~"@{border-width} @{border-style} @{text-color}";
+        border-bottom: ~"@{border-width} @{border-style} @{text-color}";
     }
 } 
