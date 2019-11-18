@@ -172,6 +172,9 @@ body {
   border-top: 2px solid #F76c6c;
   border-bottom: 2px solid #F76c6c;
 }
+.social a i {
+  color: black;
+}
 .jumbotron {
   background-image: url(../img/tabs-smfaded.png);
   background-size: cover;
