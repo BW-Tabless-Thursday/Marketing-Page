@@ -6,9 +6,27 @@
     }
 } 
 
-.marketing-img {
-    border: 30px solid lightgray;
+.marketing-txt {
+    @media (min-width: 575.98px) {
+        padding-top: 4rem;
+    }      
 }
+
+
+
+.marketing-img-col {
+    padding: 2rem 0;
+
+    .marketing-img {
+        border: 30px solid lightgray;
+    }
+
+    &:first-child {
+        padding: 2rem 0 0.6rem 0;
+    }
+}
+
+
 
 .h3 {
     padding-bottom: 2rem;

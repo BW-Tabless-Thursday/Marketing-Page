@@ -180,6 +180,14 @@ body {
 .social-header h2 {
   font-weight: bold;
 }
+@media (min-width: 575.98px) {
+  .no-display {
+    display: none;
+  }
+}
+.copyright {
+  padding-bottom: 1.3rem;
+}
 .jumbotron {
   background-image: url(../img/tabs-smfaded.png);
   background-size: cover;
@@ -229,8 +237,19 @@ body {
 .card-deck .card .rating-stars {
   padding: 0 0 0.5rem 0;
 }
-.marketing-img {
+@media (min-width: 575.98px) {
+  .marketing-txt {
+    padding-top: 4rem;
+  }
+}
+.marketing-img-col {
+  padding: 2rem 0;
+}
+.marketing-img-col .marketing-img {
   border: 30px solid lightgray;
+}
+.marketing-img-col:first-child {
+  padding: 2rem 0 0.6rem 0;
 }
 .h3 {
   padding-bottom: 2rem;
