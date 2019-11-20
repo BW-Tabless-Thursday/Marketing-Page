@@ -231,6 +231,9 @@ body {
   text-align: center;
   bottom: initial;
 }
+.carousel-inner .carousel-item .carousel-caption h1 {
+  text-shadow: 1px 1px 10px #000;
+}
 .carousel-inner .carousel-item .carousel-caption h3 {
   padding: 1.3rem 1.3rem;
 }
@@ -267,4 +270,5 @@ body {
   margin: 0;
   padding: 100px 0 100px 0;
   /*top, right, bottom, left */
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
