@@ -218,6 +218,7 @@ body {
 }
 .jumbotron-home h1 {
   padding-bottom: 2rem;
+  text-shadow: 1px 0px 1px gray, 0px 1px 1px #ccc, 2px 1px 1px gray, 1px 2px 1px #ccc;
 }
 .carousel-inner img {
   width: 100%;
@@ -230,6 +231,9 @@ body {
   transform: translateY(-50%);
   text-align: center;
   bottom: initial;
+}
+.carousel-inner .carousel-item .carousel-caption h1 {
+  text-shadow: 1px 1px 10px #000;
 }
 .carousel-inner .carousel-item .carousel-caption h3 {
   padding: 1.3rem 1.3rem;
@@ -260,9 +264,18 @@ body {
 .jumbotron-features {
   background-image: url(../img/features-page-img-jumbo.jpg);
   background-repeat: no-repeat;
+}
+.jt-about {
+  background-image: url(../img/staff-room.jpg);
   background-size: cover;
   height: 100%;
   max-width: 100%;
+}
+.jt-about h1 {
+  margin: 0;
+  padding: 100px 0 100px 0;
+  /*top, right, bottom, left */
+  text-shadow: 1px 0px 1px gray, 0px 1px 1px #ccc, 2px 1px 1px gray, 1px 2px 1px #ccc;
 }
 .jumbotron-features h1 {
   color: white;
