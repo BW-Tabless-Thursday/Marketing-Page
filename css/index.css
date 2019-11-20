@@ -188,35 +188,35 @@ body {
 .copyright {
   padding-bottom: 1.3rem;
 }
-.jumbotron {
+.jumbotron-home {
   background-image: url(../img/tabs-smfaded.png);
   background-size: cover;
   height: 100%;
   max-width: 100%;
 }
-.jumbotron h1 {
+.jumbotron-home h1 {
   font-weight: bold;
   color: #303030;
 }
 @media (min-width: 991.98px) {
-  .jumbotron h1 {
+  .jumbotron-home h1 {
     font-size: 5rem;
   }
 }
 @media (max-width: 767.98px) {
-  .jumbotron h1 {
+  .jumbotron-home h1 {
     font-size: 4em;
   }
 }
 @media (max-width: 575.98px) {
-  .jumbotron h1 {
+  .jumbotron-home h1 {
     font-size: 3em;
   }
 }
 .add-spaces {
   height: 35em;
 }
-.jumbotron h1 {
+.jumbotron-home h1 {
   padding-bottom: 2rem;
 }
 .carousel-inner img {
@@ -256,4 +256,21 @@ body {
 }
 .carousel-caption h3 {
   padding: 4% 0;
+}
+.jumbotron-features {
+  background-image: url(../img/features-page-img-jumbo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+}
+.jumbotron-features h1 {
+  color: white;
+  padding: 5rem 0;
+}
+.features-img-col {
+  padding: 2rem 0;
+}
+.features-img-col:first-child {
+  padding: 2rem 0 0.6rem 0;
 }
