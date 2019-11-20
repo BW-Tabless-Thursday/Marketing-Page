@@ -257,3 +257,14 @@ body {
 .carousel-caption h3 {
   padding: 4% 0;
 }
+.jt-about {
+  background-image: url(../img/staff-room.jpg);
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+}
+.jt-about h1 {
+  margin: 0;
+  padding: 100px 0 100px 0;
+  /*top, right, bottom, left */
+}
