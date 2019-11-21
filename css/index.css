@@ -145,7 +145,8 @@ html {
   }
 }
 body {
-  background-color: #A8D0E6;
+  background: #A8D0E6;
+  background: linear-gradient(180deg, #A8D0E6 80%, #f8f9fa 100%);
   font-family: 'Roboto Slab', sans-serif;
 }
 .navbar .navbar-nav .nav-link {
@@ -277,10 +278,17 @@ footer .copyright {
   padding: 2rem 0;
 }
 .marketing-img-col .marketing-img {
-  border: 30px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px slategray;
+  box-shadow: inset;
 }
 .marketing-img-col:first-child {
   padding: 2rem 0 0.6rem 0;
+}
+@media (min-width: 991.98px) {
+  .h3 {
+    padding-bottom: 2rem;
+  }
 }
 .carousel-caption h3 {
   padding: 4% 0;
@@ -297,6 +305,14 @@ footer .copyright {
   /*top, right, bottom, left */
   text-shadow: 1px 0px 1px gray, 0px 1px 1px #ccc, 2px 1px 1px gray, 1px 2px 1px #ccc;
 }
+.about-body {
+  background: #A8D0E6;
+  background: linear-gradient(180deg, #A8D0E6 70%, #f8f9fa 100%);
+}
+.features-body {
+  background: #A8D0E6;
+  background: linear-gradient(180deg, #A8D0E6 80%, #f8f9fa 100%);
+}
 .jumbotron-features {
   background-image: url(../img/features-page-img-jumbo.jpg) fixed center no-repeat;
   background-size: cover;
@@ -312,4 +328,9 @@ footer .copyright {
 }
 .features-img-col:first-child {
   padding: 2rem 0 0.6rem 0;
+}
+.features-img-col .features-img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px slategray;
+  box-shadow: inset;
 }

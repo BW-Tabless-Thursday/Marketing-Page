@@ -1,4 +1,24 @@
 //Jumbotron VVV
+// .features-save {
+//     background: url('../img/features-background.jpg');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+.features-body {
+    // background-color: @bsbglight;
+
+    // background: url('../img/untitled.jpg') no-repeat center center fixed;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // background-size: cover;
+    // -o-background-size: cover;
+
+    background: #A8D0E6;
+    background: linear-gradient(180deg,  #A8D0E6 80%, #f8f9fa 100%);
+}
+
+
 .jumbotron-features {
     background-image: url(../img/features-page-img-jumbo.jpg) fixed center no-repeat;
     background-size: cover;
@@ -13,8 +33,12 @@
 
 .features-img-col {
     padding: 2rem 0;
-
+    
     &:first-child {
         padding: 2rem 0 0.6rem 0;
+    }
+
+    .features-img {
+        .smallImageStyling()
     }
 }
