@@ -1,25 +1,49 @@
-.social {
-    a {
-        i {
-            color: black;
-            font-size: 2rem;
-            padding: 1% 0 1.8% 1.8%;
+footer {
+
+    .social {
+        a {
+            i {
+                font-size: 2rem;
+                padding: 1% 0 1.8% 1.8%;
+    
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+
+        // Social media icons
+        .fa-facebook-square {
+            color: @fbblue;
+        }
+        .fa-twitter {
+            color: @twitterblue;
+        }
+        .fa-pinterest {
+            color: @pinterestred;
+        }
+        .fa-instagram {
+            color: @instagramturq;
+        }
+        .fa-youtube {
+            color: @ytred;
         }
     }
-}
 
-.social-header {
-    h2 {
-        font-weight: bold;
+    .social-header {
+        h2 {
+            font-weight: bold;
+        }
+    }
+    
+    .copyright {
+        padding-bottom: 1.3rem;
     }
 }
 
-.no-display {
+.no-display-sm {
     @media (min-width: 575.98px) {
         display: none;
     }
 }
 
-.copyright {
-    padding-bottom: 1.3rem;
-}

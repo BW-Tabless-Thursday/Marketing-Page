@@ -172,26 +172,43 @@ body {
   border-top: 2px solid #F76c6c;
   border-bottom: 2px solid #F76c6c;
 }
-.social a i {
-  color: black;
+footer .social a i {
   font-size: 2rem;
   padding: 1% 0 1.8% 1.8%;
 }
-.social-header h2 {
+footer .social a i:hover {
+  color: black;
+}
+footer .social .fa-facebook-square {
+  color: #3B5998;
+}
+footer .social .fa-twitter {
+  color: #00ACED;
+}
+footer .social .fa-pinterest {
+  color: #c8232c;
+}
+footer .social .fa-instagram {
+  color: #517FA4;
+}
+footer .social .fa-youtube {
+  color: #BB0000;
+}
+footer .social-header h2 {
   font-weight: bold;
 }
+footer .copyright {
+  padding-bottom: 1.3rem;
+}
 @media (min-width: 575.98px) {
-  .no-display {
+  .no-display-sm {
     display: none;
   }
-}
-.copyright {
-  padding-bottom: 1.3rem;
 }
 .jumbotron-home {
   background-image: url(../img/tabs-smfaded.png);
   background-size: cover;
-  height: 100%;
+  height: auto;
   max-width: 100%;
 }
 .jumbotron-home h1 {
@@ -261,14 +278,10 @@ body {
 .carousel-caption h3 {
   padding: 4% 0;
 }
-.jumbotron-features {
-  background-image: url(../img/features-page-img-jumbo.jpg);
-  background-repeat: no-repeat;
-}
 .jt-about {
   background-image: url(../img/staff-room.jpg);
   background-size: cover;
-  height: 100%;
+  height: auto;
   max-width: 100%;
 }
 .jt-about h1 {
@@ -276,6 +289,12 @@ body {
   padding: 100px 0 100px 0;
   /*top, right, bottom, left */
   text-shadow: 1px 0px 1px gray, 0px 1px 1px #ccc, 2px 1px 1px gray, 1px 2px 1px #ccc;
+}
+.jumbotron-features {
+  background-image: url(../img/features-page-img-jumbo.jpg) fixed center no-repeat;
+  background-size: cover;
+  height: auto;
+  max-width: 100%;
 }
 .jumbotron-features h1 {
   color: white;
