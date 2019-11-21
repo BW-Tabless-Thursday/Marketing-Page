@@ -241,6 +241,9 @@ body {
 .card-deck .card .rating-stars {
   padding: 0 0 0.5rem 0;
 }
+.marketing-txt {
+  width: 10%;
+}
 @media (min-width: 575.98px) {
   .marketing-txt {
     padding-top: 4rem;
@@ -250,7 +253,9 @@ body {
   padding: 2rem 0;
 }
 .marketing-img-col .marketing-img {
-  border: 30px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px slategray;
+  box-shadow: inset;
 }
 .marketing-img-col:first-child {
   padding: 2rem 0 0.6rem 0;
@@ -260,10 +265,6 @@ body {
 }
 .carousel-caption h3 {
   padding: 4% 0;
-}
-.jumbotron-features {
-  background-image: url(../img/features-page-img-jumbo.jpg);
-  background-repeat: no-repeat;
 }
 .jt-about {
   background-image: url(../img/staff-room.jpg);
@@ -276,6 +277,16 @@ body {
   padding: 100px 0 100px 0;
   /*top, right, bottom, left */
   text-shadow: 1px 0px 1px gray, 0px 1px 1px #ccc, 2px 1px 1px gray, 1px 2px 1px #ccc;
+}
+.features-body {
+  background-color: white;
+}
+.jumbotron-features {
+  background-image: url(../img/features-page-img-jumbo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
 }
 .jumbotron-features h1 {
   color: white;
