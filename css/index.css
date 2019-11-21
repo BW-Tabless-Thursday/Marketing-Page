@@ -279,7 +279,8 @@ body {
   text-shadow: 1px 0px 1px gray, 0px 1px 1px #ccc, 2px 1px 1px gray, 1px 2px 1px #ccc;
 }
 .features-body {
-  background-color: white;
+  background: #A8D0E6;
+  background: linear-gradient(180deg, #A8D0E6 80%, #f8f9fa 100%);
 }
 .jumbotron-features {
   background-image: url(../img/features-page-img-jumbo.jpg);
@@ -297,4 +298,9 @@ body {
 }
 .features-img-col:first-child {
   padding: 2rem 0 0.6rem 0;
+}
+.features-img-col .features-img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px slategray;
+  box-shadow: inset;
 }
