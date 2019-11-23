@@ -1,6 +1,7 @@
 # Marketing-Page
 ### Created by Elijah Mandeville and David White
 ### Web PT 12 Cohort
+Site url: [https://tabless-thursday-webpt12.netlify.com/](https://tabless-thursday-webpt12.netlify.com/)
 
 ## The Team
 * Christian Pelayo (Project Manager)
