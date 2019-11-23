@@ -255,23 +255,74 @@ footer .copyright {
   text-align: center;
   bottom: initial;
 }
+@media (max-width: 1049.98px) {
+  .carousel-inner .carousel-item .carousel-caption {
+    max-width: 100%;
+    top: 35%;
+    text-align: center;
+  }
+}
+@media (max-width: 991.98px) {
+  .carousel-inner .carousel-item .carousel-caption {
+    max-width: 100%;
+    top: 35%;
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .carousel-inner .carousel-item .carousel-caption {
+    max-width: 100%;
+    top: 35%;
+    text-align: center;
+  }
+}
 @media (max-width: 575.98px) {
   .carousel-inner .carousel-item .carousel-caption {
     max-width: 100%;
-    left: 15%;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35%;
     text-align: center;
-    bottom: initial;
   }
 }
 .carousel-inner .carousel-item .carousel-caption h1 {
   text-shadow: 1px 1px 10px #000;
 }
+@media (max-width: 991.98px) {
+  .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 1.8rem;
+  }
+}
 .carousel-inner .carousel-item .carousel-caption h3 {
   font-size: 1.5rem;
   padding: 1.3rem 1.3rem;
   text-shadow: 1px 1px 5px #000;
+}
+@media (max-width: 991.98px) {
+  .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 1.8rem;
+    padding: 1.2rem 1.2rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 1.1rem;
+    padding: 0.6rem 0.6rem;
+  }
 }
 .card-deck .card .rating-stars {
   padding: 0 0 0.5rem 0;
