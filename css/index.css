@@ -198,6 +198,10 @@ footer .social .fa-youtube {
 footer .social-header h2 {
   font-weight: bold;
 }
+footer .features-footer a {
+  text-decoration: none;
+  color: black;
+}
 footer .copyright {
   padding-bottom: 1.3rem;
 }
@@ -244,17 +248,30 @@ footer .copyright {
 }
 .carousel-inner .carousel-item .carousel-caption {
   max-width: 100%;
+  height: 2rem;
   left: 15%;
-  top: 50% !important;
+  top: 50%;
   transform: translateY(-50%);
   text-align: center;
   bottom: initial;
+}
+@media (max-width: 575.98px) {
+  .carousel-inner .carousel-item .carousel-caption {
+    max-width: 100%;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    bottom: initial;
+  }
 }
 .carousel-inner .carousel-item .carousel-caption h1 {
   text-shadow: 1px 1px 10px #000;
 }
 .carousel-inner .carousel-item .carousel-caption h3 {
+  font-size: 1.5rem;
   padding: 1.3rem 1.3rem;
+  text-shadow: 1px 1px 5px #000;
 }
 .card-deck .card .rating-stars {
   padding: 0 0 0.5rem 0;
@@ -321,7 +338,7 @@ footer .copyright {
 }
 .jumbotron-features h1 {
   color: white;
-  padding: 5rem 0;
+  padding: 7rem 0;
 }
 .features-img-col {
   padding: 2rem 0;
