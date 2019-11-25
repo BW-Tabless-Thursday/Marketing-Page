@@ -417,6 +417,11 @@ footer .copyright {
   color: white;
   padding: 7rem 0;
 }
+@media (max-width: 400px) {
+  .jumbotron-features h1 {
+    font-size: 4rem;
+  }
+}
 .features-img-col {
   padding: 2rem 0;
 }
