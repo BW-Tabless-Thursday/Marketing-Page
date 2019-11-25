@@ -14,44 +14,24 @@
             text-align: center;
             bottom: initial;
 
-            @media(max-width: 1049.98px) {
-                max-width: 100%;
-                top: 35%;
-                text-align: center;
+            @media @xxsmf {
+                top: 25%;
             }
 
-            @media(max-width: 991.98px) {
-                max-width: 100%;
-                top: 35%;
-                text-align: center;
+            @media @xsmf {
+                top: 30%;
             }
-
-            @media(max-width: 767.98px) {
-                max-width: 100%;
-                top: 35%;
-                text-align: center;
-            }
-
-            @media(max-width: 575.98px) {
-                max-width: 100%;
-                top: 35%;
-                text-align: center;
-            }
-
+            
             h1 {
                 text-shadow: 1px 1px 10px #000;
-                
-                @media(max-width: 991.98px) {
-                    font-size: 2.2rem;
+                @media @xxsmf {
+                    font-size: 1rem;
+                    padding: 0.25rem 0.25rem;
                 }
-
-                @media(max-width: 767.98px) {
-                    font-size: 2rem;
-                }
-
-                @media(max-width: 575.98px) {
-                    font-size: 1.8rem;
-                }
+                @media @xsmf {font-size: 1.5em;}
+                @media @smmf {font-size: 1.8rem;}
+                @media @mdmf {font-size: 2rem;}
+                @media @lgmf {font-size: 2.2rem;}
             }
 
             h3 {
@@ -59,21 +39,38 @@
                 padding: 1.3rem 1.3rem;
                 text-shadow: 1px 1px 5px #000;
 
-                @media(max-width: 991.98px) {
-                    font-size: 1.8rem;
-                    padding: 1.2rem 1.2rem;
+                @media @xxsmf {
+                    font-size: 0.6rem;
+                    padding: 0.25rem 0.25rem;
+                    display: none;
+                }
+                
+                @media @xsmf {
+                    font-size: 1rem;
                 }
 
-                @media(max-width: 767.98px) {
+                @media @smmf {
+                    font-size: 1.1rem;
+                    padding: 0.6rem 0.6rem;
+                    display: block;
+                }
+                
+                @media @mdmf {
                     font-size: 1.5rem;
                     padding: 1rem 1rem;
                 }
 
-                @media(max-width: 575.98px) {
-                    font-size: 1.1rem;
-                    padding: 0.6rem 0.6rem;
+                @media @lgmf {
+                    font-size: 1.8rem;
+                    padding: 1.2rem 1.2rem;
                 }
+            }
 
+            .btn-resp {
+                @media @xxsmf {font-size: 0.6rem;}
+                @media @xsmf {font-size: 0.8rem;}
+                @media @smmf {font-size: 1rem;}
+                @media @mdmf {font-size: 1.2rem;}
             }
         }
     }
